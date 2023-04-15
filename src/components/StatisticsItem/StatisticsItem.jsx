@@ -16,7 +16,6 @@ export default StatisticsItem;
 
 StatisticsItem.protoTypes = {
     stat: PropTypes.shape({
-        id: PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
         percentage: PropTypes.number.isRequired,
     })
